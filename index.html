@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duman Premium Market | Aksu Altıntaş Antalya</title>
+  <meta name="description" content="Duman Premium Market, Antalya Aksu Altıntaş'ta. Her gün 09.00-04.00 saatleri arasında hizmetinizde.">
+  <meta name="keywords" content="Duman Premium Market, Antalya market, Aksu market, Altıntaş market, Antalya Aksu">
+  <meta name="theme-color" content="#161b22">
+  <meta property="og:title" content="Duman Premium Market | Antalya">
+  <meta property="og:description" content="Antalya Aksu Altıntaş'ta Duman Premium Market.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dumanpremiummarket.com.tr/">
+  <link rel="canonical" href="https://dumanpremiummarket.com.tr/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --orange:#f59e0b; --orange-dark:#d97706; --green:#10b981; --green-dark:#059669; --ink:#111827; --muted:#6b7280; --surface:#ffffff; --panel:#f9fafb; --line:#e5e7eb; --dark:#161b22; --dark-2:#1f2430; --shadow:0 12px 35px rgba(35,25,15,.07); }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:120px; }
+    body { font-family:'Inter',sans-serif; background:var(--surface); color:var(--ink); line-height:1.6; }
+    a { color:inherit; text-decoration:none; }
+    img { max-width:100%; display:block; }
+    .topbar { background:var(--dark); color:#fff; text-align:center; padding:8px 15px; font-size:12px; letter-spacing:.5px; }
+    header { background:var(--dark-2); border-bottom:1px solid rgba(255,255,255,.08); position:sticky; top:0; z-index:100; }
+    .header-inner { max-width:1180px; margin:auto; padding:14px 22px; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    .brand { display:flex; align-items:center; gap:12px; text-align:left; }
+    .brand-icon { width:46px; height:46px; border-radius:50%; background:var(--orange); color:#fff; display:grid; place-items:center; font-size:24px; font-weight:900; box-shadow:0 5px 14px rgba(245,158,11,.3); }
+    .brand-name { font-size:17px; line-height:1.15; font-weight:800; letter-spacing:-.5px; }
+    .brand-name span { color:var(--orange); }
+    .brand-subtitle { color:#9ca3af; font-size:10px; letter-spacing:1.6px; font-weight:700; text-transform:uppercase; margin-top:3px; }
+    nav { display:flex; gap:26px; align-items:center; flex-wrap:wrap; }
+    nav a { font-size:13px; font-weight:600; color:#cbd5e1; transition:.2s; }
+    nav a:hover { color:#fff; }
+    .btn-phone { background:var(--orange); color:#fff; padding:8px 18px; border-radius:6px; font-size:13px; font-weight:800; white-space:nowrap; transition:.2s; border:1px solid rgba(255,255,255,.15); }
+    .btn-phone:hover { background:var(--orange-dark); border-color:rgba(255,255,255,.3); }
+    /* HERO */
+    .hero { position:relative; min-height:88vh; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff; padding:0 20px; overflow:hidden; background:linear-gradient(180deg,rgba(22,27,34,.55),rgba(22,27,34,.75)),url('https://images.unsplash.com/photo-1551218884-ae17897268c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; }
+    .hero-inner { max-width:1180px; margin:auto; position:relative; z-index:2; display:grid; grid-template-columns:1fr 420px; gap:50px; align-items:center; }
+    .hero-text-content { max-width:540px; text-align:left; margin-left:auto; }
+    .eyebrow { color:var(--orange); font-size:12px; font-weight:800; letter-spacing:2px; text-transform:uppercase; margin-bottom:14px; display:block; }
+    h1 { font-size:clamp(44px,8vw,92px); line-height:1.08; letter-spacing:-2px; margin-bottom:20px; font-weight:900; }
+    h1 span { color:var(--orange); }
+    .hero-sub { color:#e5e7eb; font-size:15px; max-width:470px; margin:0 0 30px; line-height:1.7; }
+    .hero-buttons { display:flex; gap:14px; flex-wrap:wrap; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding:14px 26px; border-radius:6px; font-size:14px; font-weight:800; transition:.2s; cursor:pointer; border:none; }
+    .btn-call { background:var(--orange); color:#fff; }
+    .btn-call:hover { background:var(--orange-dark); transform:translateY(-2px); box-shadow:0 10px 24px rgba(245,158,11,.4); }
+    .btn-whatsapp { background:var(--green); color:#fff; }
+    .btn-whatsapp:hover { background:var(--green-dark); transform:translateY(-2px); box-shadow:0 10px 24px rgba(16,185,129,.4); }
+    .hero-badge { display:flex; justify-content:center; align-items:center; position:relative; }
+    .badge-circle { width:320px; height:320px; border-radius:50%; border:5px solid #fff; background:var(--dark); display:grid; place-items:center; position:relative; box-shadow:0 25px 60px rgba(0,0,0,.5); }
+    .badge-circle::before { content:"🍾"; font-size:120px; }
+    .badge-text { position:absolute; bottom:-52px; left:50%; transform:translateX(-50%); font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase; color:var(--orange); white-space:nowrap; }
+    /* SECTIONS */
+    section { padding:70px 22px; }
+    .container { max-width:1120px; margin:auto; }
+    .section-heading { text-align:center; max-width:650px; margin:0 auto 46px; }
+    .section-heading .eyebrow { color:var(--orange-dark); margin-bottom:10px; display:block; }
+    .section-heading h2 { font-size:clamp(28px,4vw,38px); letter-spacing:-1px; line-height:1.2; margin-bottom:14px; }
+    .section-heading p { color:var(--muted); font-size:14px; }
+    .categories { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+    .category { border:1px solid var(--line); border-radius:12px; padding:28px 24px; background:var(--surface); transition:.25s; }
+    .category:hover { transform:translateY(-5px); box-shadow:var(--shadow); border-color:#f4c5a5; }
+    .category-icon { width:48px; height:48px; display:grid; place-items:center; background:#fff1e6; border-radius:10px; font-size:24px; margin-bottom:16px; }
+    .category h3 { font-size:16px; margin-bottom:7px; }
+    .category p { font-size:13px; color:var(--muted); }
+    .feature-band { background:var(--dark); color:#fff; padding:46px 22px; }
+    .feature-inner { max-width:1120px; margin:auto; display:grid; grid-template-columns:repeat(3,1fr); gap:28px; text-align:center; }
+    .feature strong { display:block; font-size:17px; margin-bottom:6px; color:#fff; }
+    .feature span { color:#c5c5c5; font-size:13px; }
+    .about { background:var(--panel); }
+    .about-inner { display:grid; grid-template-columns:1fr 1fr; gap:55px; align-items:center; }
+    .about-panel { background:var(--surface); padding:38px; border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
+    .about-panel .big-letter { color:var(--orange); font-size:72px; line-height:1; font-weight:900; margin-bottom:14px; }
+    .about h2 { font-size:34px; line-height:1.2; margin-bottom:18px; }
+    .about p { color:#6e6e6e; font-size:14px; margin-bottom:14px; }
+    .area-list { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-top:26px; }
+    .area-list span { padding:9px 16px; background:#fff3e9; color:#a94c13; border:1px solid #f5dfce; border-radius:30px; font-size:12px; font-weight:700; }
+    .location-card { border:1px solid var(--line); padding:32px; border-radius:14px; background:var(--surface); box-shadow:var(--shadow); }
+    .location-card h3 { font-size:18px; margin-bottom:8px; }
+    .location-card p { color:var(--muted); font-size:14px; margin-bottom:12px; }
+    .contact-section { background:#fffaf5; }
+    .contact-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:22px; }
+    .contact-card { border:1px solid var(--line); padding:30px; border-radius:12px; background:white; transition:.2s; }
+    .contact-card:hover { box-shadow:var(--shadow); transform:translateY(-3px); }
+    .contact-card h3 { margin-bottom:10px; font-size:17px; }
+    .contact-card p { color:var(--muted); font-size:14px; margin-bottom:12px; }
+    .contact-card a { color:var(--orange-dark); font-weight:800; font-size:14px; }
+    .hours { font-size:22px!important; color:var(--orange-dark)!important; font-weight:900; margin:5px 0 10px; }
+    .map-frame { width:100%; height:380px; border:0; border-radius:12px; margin-top:25px; }
+    .payment-strip { padding:30px 22px 18px; border-top:1px solid var(--line); background:var(--surface); }
+    .payment-inner { max-width:1120px; margin:auto; display:flex; flex-wrap:wrap; gap:18px; align-items:center; justify-content:center; opacity:.55; filter:grayscale(40%); }
+    .payment-inner span { font-size:13px; font-weight:700; letter-spacing:.5px; color:var(--muted); }
+    footer { background:#161b22; color:#fff; padding:36px 22px 22px; text-align:center; }
+    .footer-brand { font-size:22px; font-weight:900; margin-bottom:8px; }
+    .footer-brand span { color:var(--orange); }
+    footer p { color:#aaa; font-size:12px; margin-bottom:6px; }
+    .footer-links { display:flex; justify-content:center; flex-wrap:wrap; gap:22px; margin:18px 0 10px; }
+    .footer-links a { color:#cbd5e1; font-size:12px; }
+    .footer-links a:hover { color:var(--orange); }
+    .copyright { border-top:1px solid #374151; margin-top:22px; padding-top:16px; color:#888; font-size:12px; }
+    .mobile-actions { display:none; }
+    @media (max-width:760px) {
+      html { scroll-padding-top:155px; }
+      .header-inner { padding:12px 14px; justify-content:center; gap:14px; }
+      nav { gap:10px 18px; }
+      nav a { font-size:11px; }
+      .btn-phone { padding:6px 12px; font-size:11px; }
+      .hero { min-height:70vh; }
+      .hero-inner { grid-template-columns:1fr; gap:30px; text-align:center; }
+      .hero-text-content { text-align:center; margin-left:0; }
+      .hero-buttons { justify-content:center; }
+      .badge-circle { width:220px; height:220px; }
+      .badge-circle::before { font-size:76px; }
+      .badge-text { font-size:13px; bottom:-42px; }
+      .categories { grid-template-columns:repeat(2,1fr); }
+      .feature-inner { grid-template-columns:1fr; gap:22px; }
+      .about-inner { grid-template-columns:1fr; gap:28px; }
+      .contact-grid { grid-template-columns:1fr; }
+      section { padding:55px 18px; }
+      body { padding-bottom:62px; }
+      .mobile-actions { display:grid; grid-template-columns:1fr 1fr; position:fixed; bottom:0; left:0; width:100%; z-index:200; box-shadow:0 -5px 20px rgba(0,0,0,.12); }
+      .mobile-actions a { text-align:center; color:#fff; padding:15px 8px; font-size:13px; font-weight:800; }
+      .mobile-call { background:#333; }
+      .mobile-whatsapp { background:#219b59; }
+    }
+    @media (max-width:420px) {
+      .categories { grid-template-columns:1fr; }
+      .brand-icon { width:40px; height:40px; font-size:20px; }
+      .brand-name { font-size:15px; }
+      .badge-circle { width:180px; height:180px; }
+      .badge-circle::before { font-size:60px; }
+    }
+  </style>
+</head>
+    <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2026/11/11/19/20261111192002-U6M8310G.js" defer></script>
+<body>
+
+  <div class="topbar">
+    ANTALYA · AKSU · ALTINTAŞ &nbsp; | &nbsp; HER GÜN 08:00 – 05:00
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="#anasayfa" aria-label="Duman Premium Market ana sayfa">
+        <div class="brand-icon">D</div>
+        <div>
+          <div class="brand-name">DUMAN <span>PREMIUM</span> MARKET</div>
+          <div class="brand-subtitle">QUALITY · SERVICE · EXPERIENCE</div>
+        </div>
+      </a>
+      <nav aria-label="Ana menü">
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#kategoriler">Kategoriler</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#bolge">Konumumuz</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <a class="btn-phone" href="tel:+905315116505">+90 531 511 65 05</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ANA SAYFA / HERO -->
+    <section class="hero" id="anasayfa">
+      <div class="hero-inner">
+        <div class="hero-text-content">
+          <div class="eyebrow">Duman Premium Market'e Hoş Geldiniz</div>
+          <h1>Kaliteli Hizmet,<br><span>Güvenilir Alışveriş.</span></h1>
+          <p class="hero-sub">
+            Antalya Aksu Altıntaş'ta günlük ihtiyaçlarınız için
+            market ürünleri, soğuk içecekler ve atıştırmalık seçenekleri.
+            Duman Premium Market ile tanışın.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-call" href="tel:+905315116505">☎ Hemen Ara</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/905315116505" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-circle"></div>
+          <div class="badge-text">DUMAN PREMIUM MARKET</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KATEGORİLER -->
+    <section id="kategoriler">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Ürün Gruplarımız</div>
+          <h2>Market Kategorileri</h2>
+          <p>Günlük ihtiyaçlarınıza yönelik farklı ürün gruplarını keşfedin.</p>
+        </div>
+        <div class="categories">
+          <article class="category"><div class="category-icon">🥤</div><h3>Soğuk İçecekler</h3><p>Farklı içecek seçenekleri ve serinletici alternatifler.</p></article>
+          <article class="category"><div class="category-icon">🍫</div><h3>Atıştırmalıklar</h3><p>Çikolata, cips, bisküvi ve çeşitli atıştırmalıklar.</p></article>
+          <article class="category"><div class="category-icon">🛒</div><h3>Market Ürünleri</h3><p>Günlük alışveriş ihtiyaçlarına yönelik ürün grupları.</p></article>
+          <article class="category"><div class="category-icon">🧊</div><h3>Buz ve Soğuk Ürünler</h3><p>Soğuk servis ve buz ürünleri seçenekleri.</p></article>
+          <article class="category"><div class="category-icon">🥜</div><h3>Kuruyemiş ve Meze</h3><p>Farklı lezzetler ve çeşitli ikramlık seçenekleri.</p></article>
+          <article class="category"><div class="category-icon">🏪</div><h3>Diğer Ürün Grupları</h3><p>Mağazamızdaki ürün çeşitleri hakkında bilgi alın.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÖNE ÇIKAN BİLGİLER -->
+    <div class="feature-band">
+      <div class="feature-inner">
+        <div class="feature"><strong>📍 Merkezi Konum</strong><span>Antalya Aksu Altıntaş</span></div>
+        <div class="feature"><strong>🕒 Geniş Çalışma Saatleri</strong><span>Her gün 08:00 – 05:00</span></div>
+        <div class="feature"><strong>☎ Kolay İletişim</strong><span>Telefonla bize ulaşabilirsiniz</span></div>
+      </div>
+    </div>
+
+    <!-- HAKKIMIZDA -->
+    <section class="about" id="hakkimizda">
+      <div class="container about-inner">
+        <div>
+          <div class="eyebrow">Biz Kimiz?</div>
+          <h2>Duman Premium Market</h2>
+          <p>Duman Premium Market olarak Antalya Aksu Altıntaş bölgesinde market ihtiyaçlarına yönelik ürün seçenekleri sunuyoruz.</p>
+          <p>Amacımız; düzenli, özenli ve müşteri memnuniyetini önemseyen bir alışveriş deneyimi sağlamaktır.</p>
+          <a class="btn btn-call" href="#iletisim" style="display:inline-block">İletişime Geçin</a>
+        </div>
+        <div class="about-panel"><div class="big-letter">D.</div><h3>Premium Market Deneyimi</h3><p>Ürün çeşitlerimiz ve mağazamız hakkında bilgi almak için bizimle doğrudan iletişime geçebilirsiniz.</p></div>
+      </div>
+    </section>
+
+    <!-- KONUM -->
+    <section id="bolge">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Konumumuz</div>
+          <h2>Antalya Aksu Altıntaş</h2>
+          <p>Duman Premium Market, Airport Luxury Homes içerisinde, Kardeş Kentler Caddesi üzerindedir.</p>
+          <div class="area-list"><span>Altıntaş</span><span>Aksu</span><span>Antalya</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section class="contact-section" id="iletisim">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Bize Ulaşın</div>
+          <h2>İletişim Bilgileri</h2>
+          <p>Sorularınız ve mağazamız hakkında bilgi almak için bize ulaşın.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card"><h3>☎ Telefon</h3><p>Telefon üzerinden bizimle iletişime geçebilirsiniz.</p><a href="tel:+905315116505">0531 511 65 05</a></div>
+          <div class="contact-card"><h3>🕒 Çalışma Saatleri</h3><p>Her gün hizmet saatlerimiz:</p><div class="hours">08:00 – 05:00</div><p>Sabah 09.00'dan gece 04.00'e kadar.</p></div>
+          <div class="contact-card"><h3>📍 Açık Adres</h3><p>Airport Luxury Homes, Altıntaş,<br>Kardeş Kentler Cd. D:1 B Blok No: 41 BA,<br>07112 Aksu / Antalya</p><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x14c383965f184135:0xb0ff3b23eddcde00" target="_blank" rel="noopener">Haritada Görüntüle →</a></div>
+          <div class="contact-card"><h3>💬 WhatsApp</h3><p>Mesaj göndermek için WhatsApp üzerinden ulaşabilirsiniz.</p><a href="https://wa.me/905315116505" target="_blank" rel="noopener">WhatsApp'tan Yazın →</a></div>
+        </div>
+        <iframe class="map-frame" title="Duman Premium Market konumu" src="https://www.google.com/maps?q=Airport%20Luxury%20Homes%20Alt%C4%B1nta%C5%9F%20Aksu%20Antalya&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- ÖDEME LOGOLARI -->
+  <div class="payment-strip">
+    <div class="payment-inner">
+      <span>WORLD</span><span>+bonus</span><span>advanϕ</span><span>CardFinans</span><span>maximum</span><span>Axess</span><span>Paraf</span><span>VISA</span><span>Mastercard</span><span>American Express</span><span>Troy</span>
+    </div>
+  </div>
+
+  <!-- ALT BÖLÜM -->
+  <footer>
+    <div class="footer-brand">DUMAN <span>PREMIUM</span> MARKET</div>
+    <p>Antalya · Aksu · Altıntaş</p>
+    <p>Kaliteli Hizmet, Güvenilir Alışveriş.</p>
+    <div class="footer-links">
+      <a href="#anasayfa">Ana Sayfa</a><a href="#kategoriler">Kategoriler</a><a href="#hakkimizda">Hakkımızda</a><a href="#iletisim">İletişim</a>
+    </div>
+    <p>Çalışma Saatleri: Her gün 08:00 – 05:00</p>
+    <div class="copyright"><p>© <span id="year"></span> Duman Premium Market. Tüm hakları saklıdır.</p></div>
+  </footer>
+
+  <!-- MOBİL SABİT İLETİŞİM BUTONLARI -->
+  <div class="mobile-actions">
+    <a class="mobile-call" href="tel:+905315116505">☎ Hemen Ara</a>
+    <a class="mobile-whatsapp" href="https://wa.me/905315116505" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+
+</body>
+</html>
